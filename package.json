@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "测试",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "webpack",
+    "pack-w": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamxio/test.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "jamxio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamxio/test/issues"
+  },
+  "homepage": "https://github.com/jamxio/test#readme"
+}
