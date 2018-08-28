@@ -4,13 +4,25 @@
   "description": "测试",
   "main": "index.js",
   "dependencies": {
-    "webpack": "^3.5.0"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack": "^4.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.22.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pack": "webpack",
-    "pack-w": "webpack --watch"
+    "pack-w": "webpack --watch",
+    "server": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
