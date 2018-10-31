@@ -7,6 +7,6 @@ import {render} from 'react-dom';
 import Greeter from './Greeter';
 
 
-import './main.css';//使用require导入css文件
+import './main.css';//使用import 代替require导入css文件
 
 render(<Greeter />, document.getElementById('root'));
