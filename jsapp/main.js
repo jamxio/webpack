@@ -9,4 +9,4 @@ import Greeter from './Greeter';
 
 import './main.css';//使用import 代替require导入css文件
 
-render(<Greeter />, document.getElementById('root'));
+render(<Greeter />, document.getElementById('root'));//渲染一个组件到#root元素
